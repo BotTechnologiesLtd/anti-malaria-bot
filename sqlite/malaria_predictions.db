@@ -1,0 +1,10 @@
+CREATE TABLE predictions (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    fever INTEGER,
+    chills INTEGER,
+    headache INTEGER,
+    nausea INTEGER,
+    fatigue INTEGER,
+    malaria_risk REAL,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
